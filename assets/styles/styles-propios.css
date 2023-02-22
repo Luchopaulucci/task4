@@ -1,0 +1,164 @@
+/* ----------------------------------------------------CUERPO */
+body {
+  background-color: #898477;
+  font-family: sans-serif;
+}
+
+/* ----------------------------------------------------IMAGENES */
+.banner-img {
+  height: 60vh;
+  width: 80vw;
+  border-radius: 10px;
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+}
+
+/* ----------------------------------------------------ANIMACIONES */
+.link:hover {
+  background-color: #08a4be;
+  color: black ;
+  transform: scale3d(1.2, 1.2, 0.2);
+  transition-duration: 1s;
+  box-shadow: 2px 2px 5px black;
+}
+
+/* ----------------------------------------------------TITULOS */
+h1 {
+  color: #121a35;
+  font-size: 50px;
+  margin-bottom: -1%;
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  color: #121a35;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+.subsubtitulo {
+  color: #121a35;
+  font-size: 20px;
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+}
+
+.subtitulo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+
+/* ----------------------------------------------------TEXTO */
+p {
+  font-family: Georgia, serif;
+  max-width: 600px;
+}
+
+.link {
+  color: #e8f4ff;
+  background-color: #121a35;
+  padding: 10px 7px;
+  border-radius: 3px;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.telefono{
+  display: inline;
+}
+
+.email{
+  position: absolute;
+  margin-top: 38.5%;
+  margin-left: 15%;
+}
+
+.subrayado{
+  text-decoration: underline;
+}
+
+th{
+  text-align: start;
+}
+
+ul{
+  list-style: none;
+}
+
+.circle{
+  list-style-type: circle;
+}
+
+/* ----------------------------------------------------CONTENEDORES */
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+nav{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  top: 5%;
+  right: 10%;
+}
+
+section{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+} 
+
+footer{
+  background-color: #AEB6BF;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+table{
+  width: 100%;
+}
+
+.contenido{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.tabla{
+  align-items: start;
+}
+
+.formulario{
+  display: flex;
+  margin-bottom: 2%;
+  margin-right: 12px;
+}
+
+.formulario-solo{
+  display: flex;
+  justify-content: start;
+  margin-bottom: 2%;
+}
+
+/* ----------------------------------------------------COSAS INTERACTIVAS */
+button{
+  border-radius: 5px;
+  padding: 12px 7px;
+}
+
+
+/* ----------------------------------------------------COSAS NUEVAS */
