@@ -19,7 +19,7 @@ body {
 /* ----------------------------------------------------ANIMACIONES */
 .link:hover {
   background-color: #08a4be;
-  color: black ;
+  color: black;
   transform: scale3d(1.2, 1.2, 0.2);
   transition-duration: 1s;
   box-shadow: 2px 2px 5px black;
@@ -73,30 +73,34 @@ p {
   align-items: end;
 }
 
-.telefono{
+.telefono {
   display: inline;
 }
 
-.email{
+.email {
   position: absolute;
   margin-top: 38.5%;
   margin-left: 15%;
 }
 
-.subrayado{
+.subrayado {
   text-decoration: underline;
 }
 
-th{
+th {
   text-align: start;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-.circle{
+.circle {
   list-style-type: circle;
+}
+
+input {
+  border-radius: 5px;
 }
 
 /* ----------------------------------------------------CONTENEDORES */
@@ -105,7 +109,7 @@ ul{
   justify-content: center;
 }
 
-nav{
+nav {
   display: flex;
   position: absolute;
   flex-direction: column;
@@ -113,52 +117,101 @@ nav{
   right: 10%;
 }
 
-section{
+section {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-bottom: 50px;
-} 
+}
 
-footer{
-  background-color: #AEB6BF;
+footer {
+  background-color: #aeb6bf;
   display: flex;
   justify-content: center;
   border-radius: 10px;
 }
 
-table{
+table {
   width: 100%;
 }
 
-.contenido{
+.contenido {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-bottom: 50px;
 }
 
-.tabla{
+.tabla {
   align-items: start;
 }
 
-.formulario{
+.formulario {
   display: flex;
   margin-bottom: 2%;
   margin-right: 12px;
 }
 
-.formulario-solo{
-  display: flex;
-  justify-content: start;
-  margin-bottom: 2%;
-}
-
 /* ----------------------------------------------------COSAS INTERACTIVAS */
-button{
+button {
   border-radius: 5px;
   padding: 12px 7px;
 }
 
-
 /* ----------------------------------------------------COSAS NUEVAS */
+@media (min-width: 360px) and (max-width: 920px) {
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 21px;
+  }
+
+  .subsubtitulo {
+    font-size: 18px;
+  }
+
+  p{
+    font-size: 15px;
+    max-width: 90%;
+  }
+
+  .banner-img {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+  }
+
+  .logo{
+    height: 150px;
+    width: 150px;
+  }
+
+  nav{
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+
+  main{
+    max-height: 10000px;
+  }
+
+  .formulario {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+  }
+
+  .subformulario{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+}
